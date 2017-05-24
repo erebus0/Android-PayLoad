@@ -1,0 +1,20 @@
+{
+  "name": "payloadserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recieve.js",
+  "dependencies": {
+    "express": "~4.11.0",
+    "body-parser": "~1.10.1",
+    "nodemailer": "~4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node recieve.js"
+  },
+  "author": "AnkitMani",
+  "license": "ISC",
+  "engines": {
+    "node": "7.10.0"
+  }
+}
